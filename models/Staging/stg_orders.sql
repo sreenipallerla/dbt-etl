@@ -7,9 +7,11 @@ o.shipmode,
 
 ordersellingprice - ordercostprice as OrderProfit
 -- from raw_customer
+,c.customerid
 ,c.customername
 ,c.segment
 ,c.country
+,p.productid
 ,p.category
 ,p.productname
 ,p.subcategory
